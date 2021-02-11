@@ -91,9 +91,9 @@ export default class ModalForm extends Component {
                                 <Form.Group controlId="Start time">
                                     <FormLabel>Start time</FormLabel>
                                     <FormControl
-                                        type="datetime-local"
+                                        type="datetime"
                                         name="Start time"
-                                        placeholder="DD-MMM-YYYY"
+                                        placeholder="mmm-dd-yyyy hh:mm"
                                         value={this.props.starttime}
                                     />
                                 </Form.Group>
@@ -102,9 +102,9 @@ export default class ModalForm extends Component {
                                 <Form.Group controlId="End time">
                                     <FormLabel>End time</FormLabel>
                                     <FormControl
-                                        type="datetime-local"
+                                        type="datetime"
                                         name="End time"
-                                        placeholder="DD-MMM-YYYY"
+                                        placeholder="mmm-dd-yyyy hh:mm"
                                         value={this.props.endtime}
                                     />
                                 </Form.Group>
